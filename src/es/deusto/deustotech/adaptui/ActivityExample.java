@@ -116,7 +116,7 @@ public class ActivityExample extends Activity {
 		adaptUI.mapOntology("http://swrl.stanford.edu/ontologies/3.3/swrla.owl", 			adaptUI.getExternalDirectory("swrla.rdf"));
 		adaptUI.mapOntology("http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl", adaptUI.getExternalDirectory("sqwrl.rdf"));
 		
-		adaptUI.loadOntologyFromFile(ONT_PATH, ONTOLOGY_FILE);
+		//adaptUI.loadOntologyFromFile(ONT_PATH, ONTOLOGY_FILE);
 	}
 	
 	/*
