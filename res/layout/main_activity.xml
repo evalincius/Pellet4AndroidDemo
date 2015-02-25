@@ -34,5 +34,6 @@
         android:layout_gravity="left|top"
         android:layout_row="0"
         android:text="TextView Example text" />
+    
 
 </GridLayout>
