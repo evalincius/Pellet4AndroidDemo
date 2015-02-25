@@ -54,14 +54,12 @@ public class ActivityExample extends Activity {
 			@Override
 			public void onClick(View v) {
 				
-				final String	ontology	= "file:storage/emulated/0/Download/full-lubm.owl";
+				final String	ontology	= "file:storage/emulated/0/Download/pizza.owl";
 				final String[]	queries		= new String[] {
 													// One of the original LUBM queries
-						"file:storage/emulated/0/Download/1stexample.sparql",
-						// A SPARQL-DL query
-						//"file:examples/data/lubm-sparql-dl.sparql",
-						// A SPARQL-DL with the SPARQL-DL extensions vocabulary
-						//"file:examples/data/lubm-sparql-dl-extvoc.sparql" 
+						//"file:storage/emulated/0/Download/1stexample.sparql",
+						"file:storage/emulated/0/Download/pizza.sparql"
+						
 						};
 
 				textView.setText("LOOK LogCat ");
