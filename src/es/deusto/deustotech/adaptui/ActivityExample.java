@@ -58,15 +58,15 @@ public class ActivityExample extends Activity {
         @Override
         protected Void doInBackground(Void... params) {
         	layout = (GridLayout) findViewById(R.id.layout);
-    		textView = (TextView) findViewById(R.id.textView);
-    		button = (Button) findViewById(R.id.button);
-    		editText = (EditText) findViewById(R.id.editText);
+    		//textView = (TextView) findViewById(R.id.textView);
+    		//button = (Button) findViewById(R.id.button);
+    		//editText = (EditText) findViewById(R.id.editText);
     		
     		Collection<View> views = new ArrayList<View>();
     		views.add(layout);
-    		views.add(textView);
-    		views.add(button);
-    		views.add(editText);
+    		//views.add(textView);
+    		//views.add(button);
+    		//views.add(editText);
     		
     		// Initializing the framework
     		adaptUI = new AdaptUI(ADAPTUI_NAMESPACE, views);
